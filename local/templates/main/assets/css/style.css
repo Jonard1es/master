@@ -1,0 +1,247 @@
+/*1. BEGINNING GENERAL*/
+body {
+	margin: 0 auto;
+	font-family: Roboto, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+
+
+
+
+.container {
+	margin: 0 auto;
+	width: 1440px;
+}
+/*1. END GENERAL*/
+
+
+/*2. BEGINNING HEADER*/
+
+/*2.1 BEGINNING HEADER-NAV*/
+.header {
+	border-bottom: 2px solid #000;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-list {
+	list-style: none;
+	display: flex;
+}
+
+.nav-list-item {
+	padding: 0 5px 0 5px;
+	font-size: 22px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #fff;
+	transition: 0.3s ease-in-out;
+}
+
+.nav-list-item:last-child {
+	margin-right: 0px;
+}
+
+.nav-list-item:hover {
+	filter: invert(100%);
+}
+
+.nav-list-item:active {
+	color: white;
+}
+
+
+/*2.1 END HEADER-NAV*/
+
+/*2. END HEADER*/
+
+/*3 BEGINNING BREAD CRUMBS */
+.bread-crumbs {
+	color: #fff;
+	margin: 0 auto;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	background-color: #000;
+}
+
+.bread-crumbs a {
+	color: #fff;
+}
+
+.bread-crumbs-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.bread-crumbs-list {
+	display: flex;
+	list-style: none;
+}
+
+.bread-crumbs-item {
+	margin-right: 20px;
+}
+
+.bread-crumbs-item:first-child:after {
+	content: " ";
+	background-color: #fff;
+	margin-left: 10px;
+	position: absolute;
+	height: 25px;
+	width: 2px;
+
+}
+
+.bread-crumbs-item {
+	padding: 2px;
+	transition: 0.2s;
+}
+
+.bread-crumbs-item:hover {
+	color: #000;
+	background-color: #fff;
+}
+/*3 END BREAD CRUMBS */
+
+/*4. BEGINNING ABOUT-US*/
+.about-us {
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
+.about-us-container {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 45px;
+}
+
+.about-us-text {
+	min-width: 650px;
+	max-width: 850px;
+}
+
+.about-us-title {
+	margin: 0 auto;
+	font-size: 48px;
+}
+
+.about-us-text-part-one {
+	margin: 0;
+}
+
+.about-us-first-paragraph,
+.about-us-second-paragraph {
+	font-size: 20px;
+}
+/*4. END ABOUT-US */
+
+
+/*5. BEGINNING SERVICES */
+.services {
+	text-align: center;
+	background-color: #F3F3F3;
+
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
+.services-title {
+	font-size: 45px;
+	margin-top: 0;	
+	margin-bottom: 20px;
+}
+
+.services-title:after {
+  content: '';
+  display: block;
+  postion: absolute;
+  width: 100px;
+  height: 2px;
+  background: #000;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.services-desc {
+	margin: 0;
+	font-size: 20px;
+}
+
+.services-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	list-style: none;
+	margin-top: 40px;
+	padding: 0;
+}
+
+.services-list-item {
+	max-width: 430px;
+	min-width: 430px;
+	padding: 10px;
+	margin-bottom: 20px;
+	cursor: pointer;
+	font-size: 20px;
+	border-radius: 10px;
+	background-color: #fff;
+	transition: 0.2s;
+	
+}
+
+.services-list-item:hover {
+	filter: invert(100%);
+	box-shadow: 0px 0px 20px 10px rgba(255, 255, 255, 0.5);
+}
+/*5. END SERVICES */
+
+
+/*6. BEGINNING FOOTER */
+.footer a {
+	color: #fff;
+}
+
+.footer {
+	background-color: #000;
+	padding-top: 20px;
+	margin: 0 auto;
+
+}
+
+.footer-main {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+}
+
+.social-media {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0;
+	list-style: none;
+}
+
+.footer-text {
+	max-width: 500px;
+}
+
+.text {
+	margin: 0;
+}
+
+.address-and-contacts {
+	width: 265px;
+}
+/*6. END FOOTER */
